@@ -1,5 +1,5 @@
 const ingredientarray = ["Pates", "Oeufs", "Sel", "Poivre", "Lardon", "Oignon", "Parmesan"]
-
+console.log(ingredientarray.length)
 function nb_ingredient(){
     document.getElementById("nb_ingredient").textContent=ingredientarray.length;
 }
@@ -22,6 +22,8 @@ function rien_a_voir() {
     console.log (array[2])
     window.alert(info)
 }
+
+
 
 rien_a_voir ()
 sort ()
